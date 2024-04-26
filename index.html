@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout | by shabea fatima </title>
+    <style>
+        h1 {
+            text-align: center;
+            color: cornflowerblue;
+            cursor: pointer;
+        }
+
+        table {
+            border: 1px solid black;
+            margin: 50px auto;
+            width: 70%;
+            background-color: rgb(209, 231, 250);
+        }
+
+        .head {
+            text-align: center;
+            border: 1px solid black;
+            font-size: large;
+            height: 25px;
+            width: 400px;
+        }
+
+        .menu {
+            text-align: center;
+            border: 1px solid black;
+            font-size: large;
+            height: 15px;
+            width: 300px;
+            font-size: large;
+
+        }
+
+        .foot {
+            text-align: center;
+            border: 1px solid black;
+            font-size: large;
+
+        }
+
+        .con {
+            border: 1px solid black;
+            text-align: center;
+            font-size: large;
+            height: 300px;
+            width: 500px;
+        }
+
+        .main {
+            text-align: center;
+            font-size: large;
+        }
+
+        .main .pic {
+            width: 160px;
+            height: 120px;
+            border: 1px solid black;
+            text-align: center;
+            margin-top: -1px;
+            margin-bottom: 5px;
+            box-sizing: border-box;
+            padding-top: 50px;
+            float: left;
+        }
+        .main .about{
+            width: 200px;
+            height: 120px;
+            border: 1px solid black;
+            text-align: center;
+            margin-top: -1px;
+            box-sizing: border-box;
+            padding-top: 50px;
+            float: right;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        .main .tweets{
+            width: 365px;
+            height: 180px;
+            border: 1px solid black;
+            margin-top: 25px;
+            box-sizing: border-box;
+            padding-top: 80px;
+            clear: both;
+            box-sizing: border-box;
+           
+        }
+
+        
+    
+    </style>
+</head>
+
+<body>
+    <h1> CSS Layout  by shabea fatima</h1>
+    <table style="border-spacing: 5px;">
+        <tr>
+            <th colspan="3" class="head">Banner</th>
+        </tr>
+        <tr>
+            <th colspan="3" class="menu">Navigation Links</th>
+        </tr>
+        <tr>
+            <th class="con">Main Content</th>
+            <th class="main">
+                <div class="pic">Picture</div>
+                <div class="about">About me blurb</div>
+                <div class="tweets">Recent tweets</div>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="3" class="foot" height="15px" width="300px">Footer</th>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>
